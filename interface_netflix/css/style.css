@@ -1,0 +1,118 @@
+:root{
+    --preto: #000000;
+    --vermelho: #e50914;
+    --nav: #555;
+    --navhover: #fff;
+}
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    background-color: black;
+    width: 100%;
+    min-width: 1vh;
+    margin: auto;
+    padding: 0;
+    font-family: 'Monserrat', sans-serif;
+}
+
+header .container{
+    background-color: var(--preto);
+    display: flex;
+    margin: 0;
+    width: 100%;
+    min-height: 70px;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.logo{
+    font-family: 'Monserrat', sans-serif;
+    font-weight: 800;
+    font-size: 32px;
+    color: var(--vermelho);
+}
+
+.logo-container{
+    min-width: 20%;
+    align-items: center;
+    text-align: center;
+}
+
+.navigation{
+    align-items: center;
+    text-align: right;
+    min-width: 80%;
+}
+
+nav a{
+    color: var(--nav);
+    text-decoration: none;
+    margin: 3%;
+}
+
+nav a:hover{
+    color: var(--navhover);
+}
+
+.banner{
+    width: 100%;
+    min-height: 500px;
+    display: flexbox;
+    align-items: center;
+    justify-content: center;
+    background: linear-gradient(rgba(0,0,0,0.5),rgba(0,0,0,0.5)) , url(../img/banner.jpg);
+}
+
+.texto-banner{
+    color: white;
+    height: 100%;
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    padding-top: 150px;
+    padding-bottom: 150px;
+    padding-left: 100px;
+    padding-right: 20px;
+}
+
+.texto-banner h1{
+    margin-bottom: 10px;
+}
+
+.botoes{
+    display: flex;
+}
+
+.texto-banner button{
+    background-color: white;
+    color: var(--preto);
+    margin: 10px;
+    margin-left: 0px;
+    border: none;
+    padding: 8px;
+    font-weight: 600;
+    font-size: 120%;
+}
+
+.banner-vazio{
+    width: 50%;
+}
+
+.slider{
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+
+.titulo{
+    padding-top: 5px;
+    padding-bottom: 5px;
+    padding-left: 50px;
+    margin-bottom: 20px;
+    color: white;
+}
